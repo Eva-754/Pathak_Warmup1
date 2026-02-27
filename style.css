@@ -1,0 +1,32 @@
+/* css formatting was assisted by AI */
+
+body {
+    text-align: center;
+} /* centers txt on pg */
+
+.hidden {
+    display: none;
+} /* hiding element class */
+
+/* Set a consistent width on the image */
+#startImg {
+    width: 450px;
+    height: auto; /* maintain aspect ratio */
+}
+
+/* Style the button to look distinct and clickable */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #228b22; /* green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style button when disabled so it’s visually clear the experience has ended */
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
